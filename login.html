@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <style>
+            .b{
+                height:650px;
+                width:550px;
+                position:relative;
+                left:480px;
+                background-color:lightblue;
+               
+            }
+            #topic{
+                color:rgb(49, 40, 36);
+                font-style:oblique;
+                position:relative;
+                top:100px;
+                left:200px;
+            }
+            input[type=text]
+            {
+                height:30px;
+                width:300px;
+                color:black;
+                position:relative;
+                left:100px;
+                top:40px;   
+            }
+            input[type=password]
+            {
+                height:30px;
+                width:300px;
+                color:black;
+                position:relative;
+                left:100px;
+                top:40px;   
+            }
+            input[type=submit]
+            {
+                height:30px;
+                width:310px;
+                text-align:center;
+                color:black;
+                position:relative;
+                left:100px;
+                top:40px;   
+            }
+            input[type=reset]
+            {
+                height:30px;
+                width:310px;
+                text-align:center;
+                color:black;
+                position:relative;
+                left:100px;
+                top:40px;   
+            }
+            
+            #h{
+                position:relative;
+                height:250px;
+                top:130px;
+            }
+            .h1{
+                             
+                position:relative;
+                top:177px;
+                left:350px;
+            }
+            #h2{
+                position:relative;
+                top:40px;
+                left:100px;
+            }
+            #h3{
+                position:relative;
+                top:5px;
+                left:265px;
+                color:deepskyblue;
+            }
+            #h4{
+                position:relative;
+                top:5px;
+                left:165px;
+                color:deepskyblue;    
+            }
+
+            
+        </style>
+        
+    </head>
+    <body>
+        <div class="b">
+            <h1 id="topic">Login Page</h1>
+            <form action="welcome.html"> 
+                <fieldset id="h">
+                    
+                    <input type="text" placeholder="Enter the Username"name="username" id="uname" required><br>
+                    <br>
+                    <input type="password"placeholder="Enter the password"id="password" name="psw"required><br>
+                    <br>
+
+                    <input type="submit" value="Login in"><br>
+                    <br>
+                    
+                    <input type="reset">
+                    <br>
+                    <p id="h2">forget your login details?</p>
+                    <p id="h3"><u>Get help logging in</u></p><br>
+                    <p id="h4">Do not have an account ?</p>
+                    
+
+                </fieldset>
+            </form>
+            
+            <a href="signup.html" class="h1">Sign up</a>
+
+
+        </div>
+        
+        <!-- <form action="welcome.html"> 
+            <fieldset>
+                <legend>LOGIN</legend>
+                <label for="uname">Enter the Username</label>
+                <input type="text" placeholder="Enter the Username"name="username" id="uname" required><br>
+                <label for="uname">Enter the Password</label>
+                <input type="password"id="password" name="psw"required><br>
+                <input type="submit" value="Login">
+                <input type="reset">         
+            </fieldset>
+        </form> -->
+        
+            
+
+    </body>
+</html>

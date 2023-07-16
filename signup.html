@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            SingUp page
+        </title>
+        <Style>
+            .h{
+                border:4px solid white;
+                background-color:lightblue;
+            }
+            .h1{
+                color:black;
+                position:relative;
+                margin-left:650px;
+
+            }
+            input[type=text]{
+                color:black;
+                width:250px;
+                height:30px;
+                position:relative;
+                left:450px;
+                margin-top: 50px;
+            }
+
+            input[type=email]
+            {
+                width:500px;
+                height:30px;
+                position:relative;
+                left:450px;
+                margin-top:10px;
+                
+            }
+
+            input[type=number]
+            {
+                width:500px;
+                height:30px;
+                position:relative;
+                left:450px;
+                
+            }
+            #h2{
+                margin-left:452px;
+                height:31px;
+                width:502px;
+            }
+            #h3{
+                color:black;
+                margin-left:452px;
+            }
+            .h4
+            {
+                color:black;
+                margin-top:-8px;
+                margin-left:444px;
+            }
+            input[type=feedback]{
+                height:300px;
+                width:200px;
+                border:3px solid black;
+                
+            }
+            .h5{
+                color:black;
+                margin-top:-8px;
+                margin-left:444px;
+            }
+            #h6{
+                
+                height:40px;
+                width:200px;
+                margin-left:200px;
+                position: relative;
+                bottom:59px;
+                background-color:green;
+            }
+            #h7{
+                height:100px;
+                width: 90px;
+            }
+            
+            
+
+        </Style>
+
+    </head>
+    <body>
+        <div class="h">
+            <h1 style=color:darkmagenta class="h1">Signup page </h1>
+    
+    <form action="welcome.html">
+        <input type="text"name="fname"placeholder="Enter the First name"required minlength="20">
+        <input type="text"name="lname"placeholder="Enter the Last name"required><br>
+        <br>
+        <input type="email"name="email"placeholder="Enter the Email Id"required><br>
+        <br>
+        <input type="number"name="contact"placeholder="Enter the Mobile Number"required step="5" minlength="4"><br>
+        <br>
+        <input type="date" placeholder="enter the DoB" id="h2"><br>
+        <!-- <fieldset>
+            <legend>gender</legend>
+                <select name="gender" id="gender">
+                    <option>select</option>
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                    <option value="others">others</option>
+
+                </select>
+        </fieldset> -->
+        <br>
+        <p id="h3">Gender</p>
+        <div class="h4">
+            
+            <input type="radio" id="male" name="Gender">
+            <label for="male">Male</label>
+    
+            <input type="radio" id="female" name="Gender">
+            <label for="female">Female</label>
+    
+            <input type="radio" id="others" name="Gender">
+            <label for="others">Others</label>
+        </div>
+        
+        <br>
+        <br>
+        <div class="h5">
+            <input type="checkbox"name="SMS notification"id="SMSnote">
+            <label for="SMSnote">For SMS notification</label><br>
+
+            <input type="checkbox"name="Mail notification"id="SMSnote">
+            <label for="Mailnote">For Mail notification</label><br>
+
+            <input type="checkbox"name="Whatsapp Notification"id="SMSnote">
+            <label for="Mailnote">For Whatsapp notification</label><br>
+            <br>
+            <input type="feedback"name="Feedback"placeholder="Feedback" style="text-align:center"id="h7">
+            
+            <br>
+            <br>
+            <input type="submit"value="Create account" id="h6">
+        </div>
+        </div>
+        
+    </body>
+    
+    </form>
+</html>
